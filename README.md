@@ -11,20 +11,20 @@ Clone this repo, then move `4.4.13+.tgz` to the root ready to unpack.
 
 Move tar to root
 
-  mv 4.4.13+.tgz /
+    mv 4.4.13+.tgz /
 
 Go to root
 
-  cd /
+    cd /
 
 untar the file
 
-  tar -zxvf 4.4.13+.tgz
+    tar -zxvf 4.4.13+.tgz
 
 If you want to make it your default kernel, do:
 
-  mv /boot/zImage /boot/zImage.original
+    mv /boot/zImage /boot/zImage.original
 
-  cp /boot/vmlinuz-4.4.13+ /boot/zImage
+    cp /boot/vmlinuz-4.4.13+ /boot/zImage
 
 Enjoy!
